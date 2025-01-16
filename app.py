@@ -13,7 +13,6 @@ FRONTEND_URL="FRONTEND_URL"
 CORS(app, resources={r"/*": {"origins": FRONTEND_URL}})
 jwt = JWTManager(app)
 
-app.register_blueprint(prueba_bp)
 app.register_blueprint(auth)  
 app.register_blueprint(predict_bp)  
 app.register_blueprint(dog_bp)     
