@@ -6,7 +6,6 @@ from src.routes.predict_routes import predict_bp
 from src.routes.auth_routes import auth
 from src.routes.dog_routes import dog_bp
 from src.routes.user_routes import profile_bp
-from src.routes.prueba import prueba_bp
 
 app = Flask(__name__)
 app.config.from_object(selected_env)
